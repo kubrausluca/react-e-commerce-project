@@ -1,13 +1,23 @@
 import React from "react";
-import Card from "./cards/Cards";
-// import Header from "./components/header/Navbar";
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import './App.css';
+import Home from "./pages/Home";
+import Products from "./pages/Products";
+import Navbar from "./components/navbar/Navbar";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
-    <div>
-      {/* <Header /> */}
-      <Card />
-    </div>
+    <>
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route path='/' exact component={Home} />
+          <Route path='/products' exact component={Products} />
+        </Switch>
+        <Footer />
+      </Router>
+    </>
   );
 }
 
