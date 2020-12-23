@@ -6,6 +6,7 @@ function Cards(props) {
 
   const CardComponent = DataList.map((item, index) => (
     <Card 
+      id={index}
       img={item.img} 
       title={item.title} 
       info={item.info} 

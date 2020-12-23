@@ -3,7 +3,7 @@ import "./CardUI.css";
 
 const Card = props => {
   const [counter, setCounter] = useState(
-    Number(localStorage.getItem("counter")) || 0
+    Number(localStorage.getItem(props.id)) || 0
   );
 
   const click = event => {
@@ -12,7 +12,7 @@ const Card = props => {
       : setCounter(counter - 1);
   };
 
-  localStorage.setItem("counter", counter);
+  localStorage.setItem(props.id, counter);
 
   return (
     <div className="col-sm-4 mt-5">
