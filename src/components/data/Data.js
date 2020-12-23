@@ -49,7 +49,7 @@ const Data_List = [
     id: 4,
     title: "HTC 10 - White",
     img: image4,
-    price: 18,
+    price: 8,
     company: "htc",
     info:
       "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo.",
@@ -99,6 +99,18 @@ const Data_List = [
     img: image8,
     price: 2,
     company: "apple",
+    info:
+      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo.",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+  {
+    id: 9,
+    title: "HTC 10 - White",
+    img: image4,
+    price: 8,
+    company: "htc",
     info:
       "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo.",
     inCart: false,
