@@ -1,11 +1,11 @@
 import React from "react";
-import "./footer-style.css";
+import "./Footer.css";
 
 function Footer() {
   return (
     <footer class="footer mt-5">
         <div class="text-center py-5">
-            <h2 class="py-3">Time Value</h2>
+            <h2 class="py-3">E-COMMERCE</h2>
             <div class="mx-auto heading-line"></div>
         </div>
         <div class="container">
@@ -22,7 +22,7 @@ function Footer() {
              </div>
           </div>
           <div class="copyright text-center py-3 border-top text-light">
-            <p>&copy; Copy Right Time Value</p>
+            <p>&copy; Copy Right E-Commerce</p>
               
           </div>
         </div>

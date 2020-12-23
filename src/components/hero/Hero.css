@@ -11,11 +11,6 @@
    url('../assets/img2.jpg');
   background-size: cover;
 }
-.carousel-image-3{
-  background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)),
-   url('../assets/img3.jpg');
-  background-size: cover;
-}
 .h-color{
   color:#fff;
 
