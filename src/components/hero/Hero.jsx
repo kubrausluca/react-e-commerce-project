@@ -12,7 +12,7 @@ function Hero() {
       <Carousel>
         <Carousel.Item>
           <img className="d-block w-100" src={image4}
-          alt="First Image" style={{height: "100vh"}}
+          alt="first" style={{height: "100vh"}}
           />
           <Carousel.Caption>
             <h1 class="display-3 h-color">Heading One</h1>
@@ -24,7 +24,7 @@ function Hero() {
 
         <Carousel.Item>
           <img className="d-block w-100" src={image5}
-          alt="First Image" style={{height: "100vh"}}
+          alt="second" style={{height: "100vh"}}
           />
           <Carousel.Caption>
             <h1 class="display-3 h-color">Heading Two</h1>

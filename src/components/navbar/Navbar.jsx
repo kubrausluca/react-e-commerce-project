@@ -18,7 +18,7 @@ function Navbar() {
               <a href="/products" class="nav-link">Products</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link"><i class="fas fa-shopping-cart fa-2x"></i></a>
+              <a href="/" class="nav-link"><i class="fas fa-shopping-cart fa-2x"></i></a>
             </li>
         </ul>
       </div>

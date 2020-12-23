@@ -7,7 +7,7 @@ const Card = props => {
   );
 
   const click = event => {
-    event.target.name == "like"
+    event.target.name === "like"
       ? setCounter(counter + 1)
       : setCounter(counter - 1);
   };
